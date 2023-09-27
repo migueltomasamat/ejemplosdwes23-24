@@ -20,3 +20,5 @@
         echo "La división de los valores es: ". $variable1/$variable2."<br>";
 
     }
+
+    print_r($_SERVER);
