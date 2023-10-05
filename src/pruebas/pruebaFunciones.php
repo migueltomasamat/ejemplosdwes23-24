@@ -8,7 +8,7 @@ function gastosCompartidos(array $gastos):array{
             $pareja[$key]+=$value;
         }
     }
-    print_r($pareja);
+    //print_r($pareja);
     echo "<br>";
 
 
