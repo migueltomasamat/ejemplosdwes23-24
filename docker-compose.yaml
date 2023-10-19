@@ -6,6 +6,7 @@ services:
   # Preparamos un volumen para almacenar nuestro código
     volumes:
       - ./src/:/var/www/html
+      - ./.config/php:/usr/local/etc/php
     expose:
       - 80
     ports:
