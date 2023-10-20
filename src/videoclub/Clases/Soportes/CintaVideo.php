@@ -1,9 +1,8 @@
 <?php
 
-namespace Videoclub;
+namespace Clases\Soportes;
 
-use Videoclub\Soporte;
-
+use Clases\Soportes\Soporte;
 class CintaVideo extends Soporte
 {
     private int $duracion;

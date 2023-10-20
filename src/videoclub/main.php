@@ -1,14 +1,14 @@
 <?php
 
-include_once "./Soporte.php";
-include_once "./CintaVideo.php";
-include_once "./Juego.php";
-include_once "./DVD.php";
+include_once "./Clases/Soportes/Soporte.php";
+include_once "./Clases/Soportes/CintaVideo.php";
+include_once "./Clases/Soportes/Juego.php";
+include_once "./Clases/Soportes/DVD.php";
 
-use Videoclub\Soporte;
-use Videoclub\CintaVideo;
-use Videoclub\Juego;
-use Videoclub\DVD;
+use Clases\Soportes\Soporte;
+use Clases\Soportes\CintaVideo;
+use Clases\Soportes\DVD;
+use Clases\Soportes\Juego;
 
 $soporte1= new Soporte("Batman",1);
 
