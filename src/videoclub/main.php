@@ -1,9 +1,9 @@
 <?php
-
 include_once "./Clases/Soportes/Soporte.php";
 include_once "./Clases/Soportes/CintaVideo.php";
 include_once "./Clases/Soportes/Juego.php";
 include_once "./Clases/Soportes/DVD.php";
+
 
 use Clases\Soportes\Soporte;
 use Clases\Soportes\CintaVideo;
@@ -35,3 +35,4 @@ $soporte4->muestraResumen();
 echo "<br>";
 
 echo $soporte4;
+
